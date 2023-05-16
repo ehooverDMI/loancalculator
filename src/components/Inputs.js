@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Button from 'react-bootstrap/Button';
 
 export default function Inputs({setMonthlyPayment}) {
 
@@ -64,7 +65,8 @@ export default function Inputs({setMonthlyPayment}) {
         onChange={handleTermChange}
       />
     </div>
-    <button type="submit">Calculate</button>
+    <Button variant="primary" type="submit">Calculate</Button>
+
   </form>
   )
 }

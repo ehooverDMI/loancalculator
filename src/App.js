@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-<h1>Loan Calculator</h1>
+      <h1>Loan Calculator</h1>
       <Input setMonthlyPayment={setMonthlyPayment}/>
       <br/>
       <Outputs monthlyPayment={monthlyPayment}/>
